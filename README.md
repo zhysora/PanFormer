@@ -1,11 +1,11 @@
-## PanFormer
+# PanFormer
+This repo is the official implementation for [PanFormer: a Transformer Based Model for Pan-sharpening](https://arxiv.org/pdf/2203.02916). 
+The paper is accepted to ICME2022.
 
----
+## Architecture of PanFormer
+![image](src/PanFormer.png)
 
-This is the official implementation of "PanFormer: a Transformer Based Model for Pan-sharpening".
-
-
-### Requirements
+# Prerequisites
 This environment is mainly based on python=3.6 with CUDA=10.2
 
 ```shell
@@ -23,7 +23,7 @@ pip install timm==0.3.2
 pip install sewar==0.4.4
 ```
 
-### Test with the pretrained Model
+# Test with the pretrained Model
 Due to the large size of the dataset, we only provide some samples in './data' to verify the code.
 
 ```shell
