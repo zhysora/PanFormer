@@ -38,12 +38,11 @@ You can modify the config file 'configs/panformer.py' for different purposes.
 Consider cite PanFormer in your publications if it helps your research.
 
 ```
-@misc{zhou2022panformer,
-      title={PanFormer: a Transformer Based Model for Pan-sharpening}, 
-      author={Huanyu Zhou and Qingjie Liu and Yunhong Wang},
-      year={2022},
-      eprint={2203.02916},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{zhou2022panformer,
+  title={PanFormer: a Transformer Based Model for Pan-sharpening},
+  author={Zhou, Huanyu and Liu, Qingjie and Wang, Yunhong},
+  booktitle={2022 IEEE International Conference on Multimedia and Expo (ICME)},
+  year={2022},
+  organization={IEEE}
 }
 ```
